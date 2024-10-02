@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+.Contenedor{
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+        width: 300px;
+    }
+input {
+        width: 300px; 
+        height: 40px; 
+        padding: 5px; 
+        font-size: 16px; 
+        border: 1px solid; 
+        border-radius: 4px; 
+    }
+h1{
+    text-align: center;
+    }
+p{
+    color: rgb(4, 4, 42);
+    font-size: 25px;
+    font-family: cursive;
+    overflow-wrap: break-word;
+    
+}
